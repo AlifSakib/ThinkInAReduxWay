@@ -1,10 +1,16 @@
-export default function Button({ children, handler }) {
-    return (
-        <button
-            class="bg-indigo-400 text-white px-3 py-2 rounded shadow"
-            onClick={handler}
-        >
-            {children}
-        </button>
-    );
-}
+import React from "react";
+
+const Button = ({ label, handler }) => {
+  return (
+    <div>
+      <button
+        onClick={handler}
+        className="bg-indigo-400 text-white px-3 py-2 rounded shadow"
+      >
+        {label}
+      </button>
+    </div>
+  );
+};
+
+export default Button;
