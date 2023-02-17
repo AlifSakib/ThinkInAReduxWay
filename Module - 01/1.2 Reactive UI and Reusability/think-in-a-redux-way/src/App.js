@@ -7,6 +7,9 @@ export default function App() {
         Simple Counter Application
       </h1>
       <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
     </div>
   );
 }
