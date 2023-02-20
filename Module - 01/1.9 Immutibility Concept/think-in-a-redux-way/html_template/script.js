@@ -12,6 +12,10 @@ const DECREMENT = "decrement";
 
 const initialState = {
   value: 0,
+  properties: {
+    a: 5,
+    b: 6,
+  },
 };
 
 // action creators
