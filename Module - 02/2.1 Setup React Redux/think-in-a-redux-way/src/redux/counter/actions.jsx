@@ -6,6 +6,7 @@ export const increment = (value) => {
     payload: value,
   };
 };
+
 export const decrement = (value) => {
   return {
     type: DECREMENT,
