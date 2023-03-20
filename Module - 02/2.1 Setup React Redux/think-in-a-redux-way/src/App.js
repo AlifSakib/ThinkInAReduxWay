@@ -9,10 +9,7 @@ export default function App() {
         <h1 class="max-w-md mx-auto text-center text-2xl font-bold">
           Simple Counter Application
         </h1>
-        <Counter />
-        <Counter />
-        <Counter />
-        <Counter />
+        <Counter name="alif" />
       </div>
     </Provider>
   );
