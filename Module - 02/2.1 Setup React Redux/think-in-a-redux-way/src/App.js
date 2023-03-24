@@ -1,5 +1,5 @@
 import { Provider } from "react-redux";
-import Counter from "./components/Counter";
+import HooksCounter from "./components/HooksCounter";
 import store from "./redux/store";
 
 export default function App() {
@@ -9,7 +9,8 @@ export default function App() {
         <h1 class="max-w-md mx-auto text-center text-2xl font-bold">
           Simple Counter Application
         </h1>
-        <Counter name="alif" />
+        {/* <Counter name="alif" /> */}
+        <HooksCounter />
       </div>
     </Provider>
   );
